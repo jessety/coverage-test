@@ -1,4 +1,4 @@
-name: ci
+name: coverage
 
 on:
   workflow_dispatch:
