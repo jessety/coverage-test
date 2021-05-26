@@ -1,4 +1,4 @@
-import { add, multiply } from '../';
+import { add, multiply } from '../src';
 
 describe('math functions', () => {
 
