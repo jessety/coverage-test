@@ -29,7 +29,7 @@
     "clean": "rimraf lib",
     "format": "eslint --fix . && sort-package-json",
     "lint": "eslint . && ec .",
-    "test": "npm run build && jest"
+    "test": "npm run clean && tsc --sourceMap && jest"
   },
   "devDependencies": {
     "@jessety/eslint-config": "^1.0.6",
