@@ -25,4 +25,5 @@ jobs:
         uses: codecov/codecov-action@v1
         with:
           directory: ./coverage/
+          files: ./coverage/coverage-final.json
           token: ${{ secrets.CODECOV_TOKEN }} # Necessary for closed-source projects
